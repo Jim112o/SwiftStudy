@@ -39,6 +39,7 @@ class MainViewController: UIViewController {
                 print("completed")
             }).disposed(by: disposeBag)
         
+        
         oneButton.rx.tap.subscribe(onNext: {[weak self] _ in
             self?.twoLabel.text = self?.oneTextField.text
         }, onError:  { error in

@@ -14,6 +14,7 @@ class NextViewModel {
 
     let dismiss = PublishSubject<Void>()
     
+    
     func buttonTapped(){
         dismiss.onNext(())
     }

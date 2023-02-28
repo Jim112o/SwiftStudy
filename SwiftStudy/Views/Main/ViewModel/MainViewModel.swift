@@ -16,5 +16,6 @@ class MainViewModel {
     
     func buttonTapped(){
         gotoNext.onNext(())
+        
     }
 }

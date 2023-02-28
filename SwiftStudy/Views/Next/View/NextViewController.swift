@@ -21,6 +21,7 @@ class NextViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         backButton.rx.tap.bind(to: nextViewModel.dismiss).disposed(by: disoiseBag)
         
         
